@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.MapContainer {
+    width:100%;
+}
+.Map {
+    width:100%;
+}
+.Canvas {
+    width:100%;
+}
+
+.rect {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -1000px;
+    top: -1000px;
+}
+  
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

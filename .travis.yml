@@ -1,0 +1,13 @@
+language: node_js
+cache: yarn
+node_js:
+  - '8'
+script:
+  - cd app-backend/dynamodb && yarn run test
+  - cd ../rest-api && yarn run test
+  - cd ../rds && yarn run test
+  - cd ../../ && yarn run test
+  - cd app-client/apollo-client && yarn run test
+  - cd ../appsync-client && yarn run test
+notifications:
+  email: false
